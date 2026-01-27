@@ -16,6 +16,7 @@ All recipes must follow this consistent format:
 [Kort beskrivelse af retten - valgfrit]
 
 Kilde: [URL eller bogref - kun hvis oplyst af brugeren]
+Tid: [tilberedningstid - hvis oplyst i kilden]
 
 ## Ingredienser (4 personer)
 
@@ -48,6 +49,11 @@ Kilde: [URL eller bogref - kun hvis oplyst af brugeren]
 - Place on its own line directly before the ingredients section
 - Format: `Kilde: [source]`
 
+**Tid:**
+- Include if the source specifies preparation/cooking time
+- Place on its own line after the source, before the ingredients section
+- Format: `Tid: [time]` (e.g., "Tid: 45 min" or "Tid: 2 timer")
+
 ### Example Recipe
 
 ```markdown
@@ -56,6 +62,7 @@ Kilde: [URL eller bogref - kun hvis oplyst af brugeren]
 En klassisk italiensk pastaret.
 
 Kilde: Valdemarsro
+Tid: 30 min
 
 ## Ingredienser (4 personer)
 
