@@ -8,29 +8,29 @@ Tid: 30 min
 ## Ingredienser (4 personer)
 
 ### Suppe
-- 1 stk **hokkaido græskar**
-- 1 stk **løg**, grofthakket
-- 4 fed **hvidløg**, finthakket
-- 2 stk **gulerødder**, skåret i tern
-- 4 stk **kartofler**, skåret i tern
-- ½ tsk **rød chili**, finthakket
-- ½ tsk **spidskommen**
-- 1 tsk **ingefær**, fintrevet
-- 1 liter **grøntsagsbouillon**
-- 1,5 dl **piskefløde**
-- 1 spsk **olivenolie**
-- ½ stk **økologisk citron**, saften af
-- **Salt** og **friskkværnet peber**
+- 1 stk `hokkaido græskar`
+- 1 stk `løg`, grofthakket
+- 4 fed `hvidløg`, finthakket
+- 2 stk `gulerødder`, skåret i tern
+- 4 stk `kartofler`, skåret i tern
+- ½ tsk `rød chili`, finthakket
+- ½ tsk `spidskommen`
+- 1 tsk `ingefær`, fintrevet
+- 1 liter `grøntsagsbouillon`
+- 1,5 dl `piskefløde`
+- 1 spsk `olivenolie`
+- ½ stk `økologisk citron`, saften af
+- `Salt` og `friskkværnet peber`
 
 ### Topping
-- 1 dl **græskarkerner**
-- 1 tsk **smør**
-- 1 dl **græsk yoghurt** (10%)
-- 1 stk **æble**, skåret i tern
-- 1 spsk **friske timiansblade**
-- ½ tsk **honning**
-- ½ stk **økologisk citron**, saften af
-- **Salt** og **friskkværnet peber**
+- 1 dl `græskarkerner`
+- 1 tsk `smør`
+- 1 dl `græsk yoghurt` (10%)
+- 1 stk `æble`, skåret i tern
+- 1 spsk `friske timiansblade`
+- ½ tsk `honning`
+- ½ stk `økologisk citron`, saften af
+- `Salt` og `friskkværnet peber`
 
 ## Fremgangsmåde
 
