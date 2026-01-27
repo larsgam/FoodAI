@@ -4,22 +4,22 @@ En klassisk italiensk kødsauce med langtidssimret ragù serveret med spaghetti.
 
 ## Ingredienser (4 personer)
 
-- 400 g spaghetti
-- 400 g oksekød, hakket
-- 150 g pancetta, skåret i små tern
-- 1 stk løg, finthakket
-- 1 stk gulerod, fintrevet
-- 1 stk bladselleri, finthakket
-- 2 fed hvidløg, finthakket
-- 400 g hakkede tomater (dåse)
-- 2 spsk tomatpuré
-- 150 ml rødvin
-- 150 ml oksebouillon
-- 2 spsk olivenolie
-- 1 tsk tørret oregano
-- 2 stk laurbærblade
-- 50 g parmesan, fintrevet
-- Salt og friskkværnet peber
+- 400 g `spaghetti`
+- 400 g `oksekød`, hakket
+- 150 g `pancetta`, skåret i små tern
+- 1 stk `løg`, finthakket
+- 1 stk `gulerod`, fintrevet
+- 1 stk `bladselleri`, finthakket
+- 2 fed `hvidløg`, finthakket
+- 400 g `hakkede tomater` (dåse)
+- 2 spsk `tomatpuré`
+- 150 ml `rødvin`
+- 150 ml `oksebouillon`
+- 2 spsk `olivenolie`
+- 1 tsk `tørret oregano`
+- 2 stk `laurbærblade`
+- 50 g `parmesan`, fintrevet
+- `Salt` og `friskkværnet peber`
 
 ## Fremgangsmåde
 

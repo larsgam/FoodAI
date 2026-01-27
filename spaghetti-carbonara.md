@@ -6,12 +6,12 @@ Kilde: https://www.carluccios.com/blogs/journal/authentic-spaghetti-carbonara og
 
 ## Ingredienser (4 personer)
 
-- 400 g spaghetti
-- 200 g guanciale (eller pancetta), skåret i 1 cm tern
-- 3 stk store æggeblommer (plus evt. 1 helt æg)
-- 80 g pecorino romano, fintrevet
-- Friskkværnet sort peber
-- Salt til pastavandet
+- 400 g `spaghetti`
+- 200 g `guanciale` (eller pancetta), skåret i 1 cm tern
+- 3 stk `store æggeblommer` (plus evt. 1 helt æg)
+- 80 g `pecorino romano`, fintrevet
+- `Friskkværnet sort peber`
+- `Salt` til pastavandet
 
 ## Fremgangsmåde
 

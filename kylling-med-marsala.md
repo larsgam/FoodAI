@@ -6,17 +6,17 @@ Kilde: https://thehappyfoodie.co.uk/recipes/chicken-with-marsala/
 
 ## Ingredienser (4 personer)
 
-- 4 stk kyllingebryster uden skind og ben, banket tynde (ca. 5 mm)
-- 40 g hvedemel
-- 50 g smør
-- 2 spsk olivenolie
-- 2 stk skalotteløg, finthakket
-- 1 fed hvidløg, finthakket
-- 160 g brune champignoner, skåret i skiver
-- 250 ml tør Marsala
-- 150 ml hønsebouillon
-- 15 g frisk bladpersille, grofthakket
-- Salt og friskkværnet peber
+- 4 stk `kyllingebryster` uden skind og ben, banket tynde (ca. 5 mm)
+- 40 g `hvedemel`
+- 50 g `smør`
+- 2 spsk `olivenolie`
+- 2 stk `skalotteløg`, finthakket
+- 1 fed `hvidløg`, finthakket
+- 160 g `brune champignoner`, skåret i skiver
+- 250 ml `tør Marsala`
+- 150 ml `hønsebouillon`
+- 15 g `frisk bladpersille`, grofthakket
+- `Salt` og `friskkværnet peber`
 
 ## Fremgangsmåde
 

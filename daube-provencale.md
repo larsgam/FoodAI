@@ -6,25 +6,25 @@ Kilde: https://gourministeriet.dk/daube-daube-provencale/
 
 ## Ingredienser (4 personer)
 
-- 1 kg oksehøjreb, skåret i store tern
-- 250 g bacon, skåret i store stykker
-- 200 g små brune champignoner, hele eller halverede
-- 2 stk store gulerødder, skåret i tykke skiver
-- 2 stk bladselleri, skåret i skiver
-- 2 stk porrer, skåret i ringe (uden de grove grønne dele)
-- 10 stk skalotteløg, pillede (ca. 300 g)
-- 4 fed hvidløg, finthakket eller presset
-- 1 flaske rødvin
-- 5 dl oksebouillon
-- 3 spsk tomatkoncentrat
-- 1 stk appelsin, fintrevet skal
-- 2 stk laurbærblade
-- 3 kviste rosmarin
-- 1 lille håndfuld persille, finthakket
-- 50 g smør
-- 2 spsk hvedemel
-- Olie
-- Salt og peber
+- 1 kg `oksehøjreb`, skåret i store tern
+- 250 g `bacon`, skåret i store stykker
+- 200 g `små brune champignoner`, hele eller halverede
+- 2 stk `store gulerødder`, skåret i tykke skiver
+- 2 stk `bladselleri`, skåret i skiver
+- 2 stk `porrer`, skåret i ringe (uden de grove grønne dele)
+- 10 stk `skalotteløg`, pillede (ca. 300 g)
+- 4 fed `hvidløg`, finthakket eller presset
+- 1 flaske `rødvin`
+- 5 dl `oksebouillon`
+- 3 spsk `tomatkoncentrat`
+- 1 stk `appelsin`, fintrevet skal
+- 2 stk `laurbærblade`
+- 3 kviste `rosmarin`
+- 1 lille håndfuld `persille`, finthakket
+- 50 g `smør`
+- 2 spsk `hvedemel`
+- `Olie`
+- `Salt` og `peber`
 
 ## Fremgangsmåde
 

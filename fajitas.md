@@ -7,28 +7,28 @@ Kilde: https://www.valdemarsro.dk/fajitas/
 ## Ingredienser (4 personer)
 
 ### Limemarinade
-- 2 stk lime, saften af
-- 1 spsk sukker
-- 1 spsk olivenolie
-- 2 tsk spidskommen
-- 1 tsk koriander, malet
-- 1 tsk røget paprika
-- Friskkværnet peber
+- 2 stk `lime`, saften af
+- 1 spsk `sukker`
+- 1 spsk `olivenolie`
+- 2 tsk `spidskommen`
+- 1 tsk `koriander`, malet
+- 1 tsk `røget paprika`
+- `Friskkværnet peber`
 
 ### Hovedingredienser
-- 450 g kyllingebryst, skåret i tynde strimler
-- 2 stk rød peberfrugt, skåret i tynde strimler
-- 1 stk grøn peberfrugt, skåret i tynde strimler
-- 3 stk løg, skåret i tynde strimler
-- 2 stk lime, halveret
-- 1 spsk olivenolie til stegning
-- Salt og friskkværnet peber
+- 450 g `kyllingebryst`, skåret i tynde strimler
+- 2 stk `rød peberfrugt`, skåret i tynde strimler
+- 1 stk `grøn peberfrugt`, skåret i tynde strimler
+- 3 stk `løg`, skåret i tynde strimler
+- 2 stk `lime`, halveret
+- 1 spsk `olivenolie` til stegning
+- `Salt` og `friskkværnet peber`
 
 ### Tilbehør
-- 8 stk tortilla wraps
-- 2 håndfulde frisk koriander
-- 4 spsk sriracha chilisauce
-- 1 stk avocado, skåret i skiver
+- 8 stk `tortilla wraps`
+- 2 håndfulde `frisk koriander`
+- 4 spsk `sriracha chilisauce`
+- 1 stk `avocado`, skåret i skiver
 
 ## Fremgangsmåde
 

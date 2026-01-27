@@ -7,26 +7,26 @@ Kilde: Meyers Når Du Flytter Hjemmefra, side 165
 ## Ingredienser (4 personer)
 
 ### Kylling og sauce
-- 8 stk kyllingeoverlår med skind
-- 4 spsk olivenolie
-- 2 stk løg, finthakket
-- 1 dl hvidvin (eller et splash eddike)
-- 2 dl hønsebouillon
-- 2 tsk tørret estragon (eller 2 spsk frisk estragon)
-- 2 dl piskefløde
-- 4 spsk dijonsennep, gerne den grove udgave
-- Salt og peber
+- 8 stk `kyllingeoverlår` med skind
+- 4 spsk `olivenolie`
+- 2 stk `løg`, finthakket
+- 1 dl `hvidvin` (eller et splash eddike)
+- 2 dl `hønsebouillon`
+- 2 tsk `tørret estragon` (eller 2 spsk frisk estragon)
+- 2 dl `piskefløde`
+- 4 spsk `dijonsennep`, gerne den grove udgave
+- `Salt` og `peber`
 
 ### Kogte korn
-- 300 g perlebyg
+- 300 g `perlebyg`
 
 ### Spinatsalat
-- 6 spsk citronsaft
-- 2 tsk sukker eller honning
-- 1 dl olivenolie
-- 8 håndfulde spinatblade
-- 80 g pinjekerner (alternativt solsikkekerner eller andre kerner/nødder)
-- 4 stk forårsløg, skåret i tynde skiver
+- 6 spsk `citronsaft`
+- 2 tsk `sukker` eller `honning`
+- 1 dl `olivenolie`
+- 8 håndfulde `spinatblade`
+- 80 g `pinjekerner` (alternativt solsikkekerner eller andre kerner/nødder)
+- 4 stk `forårsløg`, skåret i tynde skiver
 
 ## Fremgangsmåde
 
