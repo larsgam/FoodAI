@@ -10,8 +10,8 @@ Forberedelse: 10 min
 
 ### Marinara
 - 500 g `tørret pasta`
-- 1 stk `løg`
-- 2 fed `hvidløg`
+- 1 stk `løg`, finthakket
+- 2 fed `hvidløg`, finthakket
 - 2 dåser `flåede tomater` (2 x 330 g)
 - 1 dåse `tomatpure` (40 g)
 - 1 spsk `tørret oregano`
@@ -20,12 +20,12 @@ Forberedelse: 10 min
 - 1 spsk `olivenolie`
 
 ### Caprese
-- 200 g `friske cherrytomater` (eller daddeltomater)
+- 200 g `friske cherrytomater` (eller daddeltomater), skåret i mundrette stykker
 - 2 spsk `balsamicoeddike`
 - 1 tsk `flydende honning` (eller 1 tsk sukker)
-- 1 bundt `frisk basilikum`
+- 1 bundt `frisk basilikum`, bladene plukket
 - 2 spsk `koldpresset olivenolie`
-- 1 stk `mozzarella`
+- 1 stk `mozzarella`, revet i mundrette stykker
 - `Salt` og `peber`
 
 ## Fremgangsmåde
