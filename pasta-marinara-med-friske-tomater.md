@@ -30,14 +30,13 @@ Forberedelse: 10 min
 
 ## Fremgangsmåde
 
-1. Pil og hak løg og hvidløg fint.
-2. Varm 1 spsk olivenolie op i en gryde og sauter løg og hvidløg mørt ved mellemhøj varme.
-3. Tilsæt tørret oregano og tomatpure, og lad det stege igennem i 1-2 minutter.
-4. Tilsæt vand, bouillonterning og flåede tomater. Bring i kog ved mellemhøj varme, skru derefter ned så det simrer.
-5. Pluk basilikumbladene og smid halvdelen i saucen. Lad den simre i 10-15 minutter.
-6. Bring en gryde med saltet vand i kog og kog pastaen.
-7. Skær de friske tomater i mundrette stykker og vend dem med eddike, honning, salt og peber. Bræk mozzarellaen i mundrette stykker.
-8. Blend tomatsaucen med en stavblender og smag til med salt og peber.
-9. Dræn de friske tomater fri fra balsamicomarinaden.
-10. Dræn pastaen og vend den sammen med halvdelen af saucen og de friske tomater. Lun igennem i 30-45 sekunder.
-11. Anret i skåle og top med frisk basilikum og mozzarella.
+1. Varm 1 spsk olivenolie op i en gryde og sauter løg og hvidløg mørt ved mellemhøj varme.
+2. Tilsæt tørret oregano og tomatpure, og lad det stege igennem i 1-2 minutter.
+3. Tilsæt vand, bouillonterning og flåede tomater. Bring i kog ved mellemhøj varme, skru derefter ned så det simrer.
+4. Smid halvdelen af basilikumbladene i saucen. Lad den simre i 10-15 minutter.
+5. Bring en gryde med saltet vand i kog og kog pastaen.
+6. Vend cherrytomaterne med eddike, honning, salt og peber.
+7. Blend tomatsaucen med en stavblender og smag til med salt og peber.
+8. Dræn de friske tomater fri fra balsamicomarinaden.
+9. Dræn pastaen og vend den sammen med halvdelen af saucen og de friske tomater. Lun igennem i 30-45 sekunder.
+10. Anret i skåle og top med frisk basilikum og mozzarella.
