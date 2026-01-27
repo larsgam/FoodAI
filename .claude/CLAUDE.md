@@ -55,6 +55,11 @@ Tid: [tilberedningstid - hvis oplyst i kilden]
 - Place on its own line after the source, before the ingredients section
 - Format: `Tid: [time]` (e.g., "Tid: 45 min" or "Tid: 2 timer")
 
+**Brød og dej:**
+- For recipes with bread dough, always include hydration percentage in the description
+- Hydration = (water weight / flour weight) × 100
+- Example: "Hydration: 87%" or include in description like "En dej med 87% hydration"
+
 ### Example Recipe
 
 ```markdown
