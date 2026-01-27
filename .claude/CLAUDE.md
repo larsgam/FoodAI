@@ -16,7 +16,8 @@ All recipes must follow this consistent format:
 [Kort beskrivelse af retten - valgfrit]
 
 Kilde: [URL eller bogref - kun hvis oplyst af brugeren]
-Tid: [tilberedningstid - hvis oplyst i kilden]
+Tid: [total tilberedningstid - hvis oplyst i kilden]
+Forberedelse: [tid til forberedelse/aktivt arbejde - hvis oplyst]
 
 ## Ingredienser (4 personer)
 
@@ -53,7 +54,8 @@ Tid: [tilberedningstid - hvis oplyst i kilden]
 **Tid:**
 - Include if the source specifies preparation/cooking time
 - Place on its own line after the source, before the ingredients section
-- Format: `Tid: [time]` (e.g., "Tid: 45 min" or "Tid: 2 timer")
+- Format: `Tid: [total time]` (e.g., "Tid: 45 min" or "Tid: 2 timer")
+- Add preparation time on a separate line below: `Forberedelse: [time]`
 
 **Brød og dej:**
 - For recipes with bread dough, always include hydration percentage in the description
@@ -69,6 +71,7 @@ En klassisk italiensk pastaret.
 
 Kilde: Valdemarsro
 Tid: 30 min
+Forberedelse: 20 min
 
 ## Ingredienser (4 personer)
 

@@ -4,6 +4,7 @@ En klassisk fransk simreret i familie med boeuf bourguignon. Mørt oksekød med 
 
 Kilde: https://gourministeriet.dk/daube-daube-provencale/
 Tid: 3,5 timer
+Forberedelse: 30 min
 
 ## Ingredienser (4 personer)
 
