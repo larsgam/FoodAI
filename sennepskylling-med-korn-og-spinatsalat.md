@@ -2,6 +2,8 @@
 
 Et godt skud sennep i den pande, du har stegt kylling i, lidt fløde, og du har en hurtig sauce, der smager af en masse. Ud over de kogte korn og spinatsalaten, så spis også gerne dampet eller stegt broccoli eller andre grove grøntsager til.
 
+Kilde: Meyers Når Du Flytter Hjemmefra, side 165
+
 ## Ingredienser (4 personer)
 
 ### Kylling og sauce
