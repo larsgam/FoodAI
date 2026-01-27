@@ -15,6 +15,8 @@ All recipes must follow this consistent format:
 
 [Kort beskrivelse af retten - valgfrit]
 
+Kilde: [URL eller bogref - kun hvis oplyst af brugeren]
+
 ## Ingredienser (4 personer)
 
 - [mængde] [enhed] [ingrediens], [tilberedning hvis nødvendigt]
@@ -41,12 +43,19 @@ All recipes must follow this consistent format:
 - Each step should be a clear, single action when possible
 - Use imperative form (steg, rør, tilsæt, etc.)
 
+**Kilde:**
+- Only include if the user provides the source (URL, book name, etc.)
+- Place on its own line directly before the ingredients section
+- Format: `Kilde: [source]`
+
 ### Example Recipe
 
 ```markdown
 # Pasta Carbonara
 
 En klassisk italiensk pastaret.
+
+Kilde: Valdemarsro
 
 ## Ingredienser (4 personer)
 
