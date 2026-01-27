@@ -20,7 +20,7 @@ Tid: [tilberedningstid - hvis oplyst i kilden]
 
 ## Ingredienser (4 personer)
 
-- [mængde] [enhed] [ingrediens], [tilberedning hvis nødvendigt]
+- [mængde] [enhed] `[ingrediens]`, [tilberedning hvis nødvendigt]
 - ...
 
 ## Fremgangsmåde
@@ -36,8 +36,9 @@ Tid: [tilberedningstid - hvis oplyst i kilden]
 - Always scaled to 4 persons (recalculate if original recipe is for a different number)
 - Written as bullet points
 - Use metric units (gram, kg, ml, dl, liter, cm)
+- Highlight ingredient names with backticks for visual emphasis
 - Include preparation notes directly on the ingredient line (hakket, skåret i tern, revet, snittet, etc.)
-- Example: `- 200 g løg, finthakket`
+- Example: `- 200 g `løg`, finthakket`
 
 **Fremgangsmåde:**
 - Always numbered steps
@@ -66,11 +67,11 @@ Tid: 30 min
 
 ## Ingredienser (4 personer)
 
-- 400 g spaghetti
-- 200 g guanciale, skåret i små tern
-- 4 stk æggeblommer
-- 100 g pecorino, fintrevet
-- Sort peber, friskkværnet
+- 400 g `spaghetti`
+- 200 g `guanciale`, skåret i små tern
+- 4 stk `æggeblommer`
+- 100 g `pecorino`, fintrevet
+- `Sort peber`, friskkværnet
 
 ## Fremgangsmåde
 
