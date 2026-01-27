@@ -80,3 +80,10 @@ When transforming recipes from the internet or prompts:
 4. Add preparation notes to ingredients
 5. Format steps as numbered list
 6. Ensure consistent formatting
+
+## Git Workflow
+
+After creating or updating a recipe file, always execute the following Git commands:
+1. `git add [filnavn]` - stage the new/changed file
+2. `git commit -m "Tilføj/Opdater opskrift på [navn]"` - commit with descriptive message
+3. `git push` - push to GitHub
