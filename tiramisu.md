@@ -7,7 +7,7 @@ Kilde: Brødrene Haarders Italienske køkken, side 282 (skaleret til 5/3)
 ## Ingredienser
 
 - 830 g `mascarpone`
-- 5 stk `æggeblommer`
+- 8 stk `æggeblommer`
 - 165 g `sukker`
 - 5 stk `æggehvider` (ca. 1¾ dl)
 - ca. 5 dl `meget stærk nescafe`, afkølet
