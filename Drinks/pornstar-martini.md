@@ -1,6 +1,6 @@
 # Pornstar Martini
 
-En sensuel cocktail med passionsfrugt, vanilje og et shot Prosecco ved siden af.
+En sensuel cocktail med passionsfrugt og vanilje.
 
 Tid: 5 min
 
@@ -13,7 +13,6 @@ Tid: 5 min
 - 25 ml `limesaft`, friskpresset
 - ½ `passionsfrugt`
 - `Isterninger`
-- 1 shot `Prosecco`
 
 ## Fremgangsmåde
 
@@ -21,4 +20,4 @@ Tid: 5 min
 2. Tilsæt rigeligt med is og shake kraftigt.
 3. Dobbeltsi over i et afkølet coupeglas.
 4. Top med den halve passionsfrugt.
-5. Server med et shot Prosecco ved siden af.
+5. Server straks.
