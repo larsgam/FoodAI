@@ -1,6 +1,6 @@
 # Gin og Tonic
 
-En klassisk og forfriskende drink med agurk.
+En klassisk og forfriskende drink med citron.
 
 Kilde: https://shake-it.dk/drink/gin-og-tonic/
 Tid: 5 min
