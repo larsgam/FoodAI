@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Gustavs langtidshævede boller"
+---
+
 # Gustavs langtidshævede boller
 
 Nemme boller der hæver natten over og bages om morgenen. Hydration: 87,5%.

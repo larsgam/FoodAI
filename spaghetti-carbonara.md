@@ -1,3 +1,8 @@
+---
+layout: default
+title: Spaghetti Carbonara
+---
+
 # Spaghetti Carbonara
 
 En autentisk romersk pastaret med sprød guanciale, æg og pecorino. Saucen skabes ved emulgering - ikke fløde.

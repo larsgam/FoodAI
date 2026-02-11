@@ -1,3 +1,8 @@
+---
+layout: default
+title: Tiramisu
+---
+
 # Tiramisu
 
 En klassisk italiensk dessert med mascarpone, kaffe og savoiardikiks.

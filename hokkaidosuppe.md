@@ -1,3 +1,8 @@
+---
+layout: default
+title: Hokkaidosuppe
+---
+
 # Hokkaidosuppe
 
 En cremet og lækker græskarsuppe, som smager fantastisk og er nem at lave.

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Kylling med Marsala
+---
+
 # Kylling med Marsala
 
 En klassisk italiensk ret med kyllingebryster i en Marsala-vinreduktion med svampe og skalotteløg. Perfekt til en hyggelig aften med godt selskab.

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Spaghetti Bolognese
+---
+
 # Spaghetti Bolognese
 
 En klassisk italiensk kødsauce med langtidssimret ragù serveret med spaghetti.

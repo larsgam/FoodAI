@@ -1,3 +1,8 @@
+---
+layout: default
+title: Sennepskylling med korn og spinatsalat
+---
+
 # Sennepskylling med korn og spinatsalat
 
 Et godt skud sennep i den pande, du har stegt kylling i, lidt fløde, og du har en hurtig sauce, der smager af en masse. Ud over de kogte korn og spinatsalaten, så spis også gerne dampet eller stegt broccoli eller andre grove grøntsager til.

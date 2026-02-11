@@ -1,0 +1,11 @@
+title: FoodAI
+description: En samling af mine yndlingsopskrifter
+baseurl: /FoodAI
+url: https://larsgam.github.io
+
+markdown: kramdown
+
+exclude:
+  - .claude
+  - README.md
+  - LICENSE

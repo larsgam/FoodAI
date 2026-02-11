@@ -1,3 +1,8 @@
+---
+layout: default
+title: Fajitas
+---
+
 # Fajitas
 
 Rygende varme fajitas med lune bløde tortillas, avocado og hot chilisauce. En hurtig hverdagsret der kan forberedes ved at marinere kyllingen natten over.

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Pasta alla Norma
+---
+
 # Pasta alla Norma
 
 En klassisk siciliansk pastaret med stegte auberginer, tomatsauce og saltet ricotta.

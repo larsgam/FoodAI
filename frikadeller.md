@@ -1,3 +1,8 @@
+---
+layout: default
+title: Frikadeller
+---
+
 # Frikadeller
 
 Saftige frikadeller er ganske simpelt bare en af de bedste danske klassikere. Server med kartoffelsalat, coleslaw, kartofler med sovs eller på rugbrød.

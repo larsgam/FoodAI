@@ -1,3 +1,8 @@
+---
+layout: default
+title: Negroni
+---
+
 # Negroni
 
 En klassisk italiensk cocktail med en forfriskende bitter smag.

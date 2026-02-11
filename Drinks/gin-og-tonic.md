@@ -1,3 +1,8 @@
+---
+layout: default
+title: Gin og Tonic
+---
+
 # Gin og Tonic
 
 En klassisk og forfriskende drink med citron.

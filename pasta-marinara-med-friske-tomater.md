@@ -1,3 +1,8 @@
+---
+layout: default
+title: Pasta Marinara med friske tomater
+---
+
 # Pasta Marinara med friske tomater
 
 En hurtig og lækker pasta med hjemmelavet tomatsauce og frisk caprese-topping.
