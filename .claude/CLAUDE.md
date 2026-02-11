@@ -11,6 +11,11 @@ All recipes must follow this consistent format:
 ### Structure
 
 ```markdown
+---
+layout: default
+title: [Opskriftens navn]
+---
+
 # [Opskriftens navn]
 
 [Kort beskrivelse af retten - valgfrit]
@@ -32,6 +37,12 @@ Forberedelse: [tid til forberedelse/aktivt arbejde - hvis oplyst]
 ```
 
 ### Rules
+
+**Jekyll front matter:**
+- Every recipe file MUST start with Jekyll front matter (the `---` block)
+- The `title` field must match the `# heading` in the recipe
+- Titles with special characters (æ, ø, å, é, etc.) must be wrapped in quotes
+- This ensures the recipe appears on the GitHub Pages site and index page automatically
 
 **Ingredienser:**
 - Always scaled to 4 persons (recalculate if original recipe is for a different number)
@@ -65,6 +76,11 @@ Forberedelse: [tid til forberedelse/aktivt arbejde - hvis oplyst]
 ### Example Recipe
 
 ```markdown
+---
+layout: default
+title: Pasta Carbonara
+---
+
 # Pasta Carbonara
 
 En klassisk italiensk pastaret.
@@ -95,6 +111,8 @@ Forberedelse: 20 min
 
 - Store recipes as `.md` files
 - Use descriptive filenames in lowercase with hyphens: `pasta-carbonara.md`
+- Place drink recipes in the `Drinks/` subdirectory
+- The index page (`index.md`) auto-generates links to all recipes — no manual update needed
 
 ## Converting Recipes
 
