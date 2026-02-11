@@ -7,14 +7,13 @@ title: Opskrifter
 
 ## Mad
 
-{% assign recipes = site.pages | where_exp: "p", "p.url contains '.html' and p.url != '/'" | where_exp: "p", "p.url contains '/' and p.dir == '/'" | sort: "title" %}
-{% for page in recipes %}
-- [{{ page.title }}]({{ page.url | relative_url }})
-{% endfor %}
+{% assign sorted_pages = site.pages | sort: "title" %}
+{% for p in sorted_pages %}{% if p.dir == "/" and p.title and p.name != "index.md" %}
+- [{{ p.title }}]({{ p.url | relative_url }})
+{% endif %}{% endfor %}
 
 ## Drinks
 
-{% assign drinks = site.pages | where_exp: "p", "p.dir == '/Drinks/'" | sort: "title" %}
-{% for page in drinks %}
-- [{{ page.title }}]({{ page.url | relative_url }})
-{% endfor %}
+{% for p in sorted_pages %}{% if p.dir == "/Drinks/" and p.title %}
+- [{{ p.title }}]({{ p.url | relative_url }})
+{% endif %}{% endfor %}
