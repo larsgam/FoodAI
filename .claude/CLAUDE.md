@@ -111,7 +111,11 @@ Forberedelse: 20 min
 
 - Store recipes as `.md` files
 - Use descriptive filenames in lowercase with hyphens: `pasta-carbonara.md`
-- Place drink recipes in the `Drinks/` subdirectory
+- Place recipes in the correct category subdirectory:
+  - `Hverdagsmad/` — hverdagsretter, pastaretter, supper, kød- og grøntsagsretter
+  - `Bagvaerk/` — brød, boller, kager og andet bagværk
+  - `Desserter/` — desserter og søde retter
+  - `Drinks/` — cocktails og andre drikkevarer
 - The index page (`index.md`) auto-generates links to all recipes — no manual update needed
 
 ## Converting Recipes

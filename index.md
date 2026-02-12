@@ -5,10 +5,23 @@ title: Opskrifter
 
 # Mine opskrifter
 
-## Mad
-
 {% assign sorted_pages = site.pages | sort: "title" %}
-{% for p in sorted_pages %}{% if p.dir == "/" and p.title and p.name != "index.md" %}
+
+## Hverdagsmad
+
+{% for p in sorted_pages %}{% if p.dir == "/Hverdagsmad/" and p.title %}
+- [{{ p.title }}]({{ p.url | relative_url }})
+{% endif %}{% endfor %}
+
+## Bagværk
+
+{% for p in sorted_pages %}{% if p.dir == "/Bagvaerk/" and p.title %}
+- [{{ p.title }}]({{ p.url | relative_url }})
+{% endif %}{% endfor %}
+
+## Desserter
+
+{% for p in sorted_pages %}{% if p.dir == "/Desserter/" and p.title %}
 - [{{ p.title }}]({{ p.url | relative_url }})
 {% endif %}{% endfor %}
 
