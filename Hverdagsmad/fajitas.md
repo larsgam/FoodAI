@@ -26,6 +26,7 @@ Kilde: https://www.valdemarsro.dk/fajitas/
 - 1 stk `grøn peberfrugt`, skåret i tynde strimler
 - 3 stk `løg`, skåret i tynde strimler
 - 2 stk `lime`, halveret
+- 1 dåse `sorte bønner` (400 g), drænet og skyllet
 - 1 spsk `olivenolie` til stegning
 - `Salt` og `friskkværnet peber`
 
