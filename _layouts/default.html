@@ -33,7 +33,7 @@
     }
 
     .container {
-      max-width: 700px;
+      max-width: 960px;
       margin: 0 auto;
       padding: 2rem 1.5rem;
     }
@@ -45,44 +45,89 @@
     }
 
     h2 {
-      font-size: 1.4rem;
-      margin-top: 2rem;
+      font-size: 1.2rem;
+      margin-top: 1.5rem;
       margin-bottom: 0.75rem;
       color: #2c5530;
       border-bottom: 2px solid #e8e4d9;
       padding-bottom: 0.3rem;
     }
 
-    p {
-      margin-bottom: 1rem;
+    h3 {
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #888;
+      margin-top: 1.25rem;
+      margin-bottom: 0.5rem;
     }
 
+    p {
+      margin-bottom: 1rem;
+      color: #555;
+      font-size: 0.95rem;
+    }
+
+    /* Ingredient list */
     ul {
-      list-style: disc;
-      padding-left: 1.5rem;
-      margin-bottom: 1.5rem;
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 0.5rem;
     }
 
     ul li {
-      margin-bottom: 0.4rem;
+      font-size: 0.92rem;
+      padding: 0.3rem 0;
+      border-bottom: 1px solid #f0ece3;
+      display: flex;
+      align-items: baseline;
+      gap: 0.4rem;
     }
 
+    ul li:last-child {
+      border-bottom: none;
+    }
+
+    /* Step list */
     ol {
-      padding-left: 1.5rem;
+      list-style: none;
+      padding-left: 0;
       margin-bottom: 1.5rem;
+      counter-reset: step-counter;
     }
 
     ol li {
-      margin-bottom: 0.75rem;
+      counter-increment: step-counter;
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.1rem;
+      align-items: flex-start;
+    }
+
+    ol li::before {
+      content: counter(step-counter);
+      flex-shrink: 0;
+      width: 1.75rem;
+      height: 1.75rem;
+      background: #2c5530;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      font-weight: 700;
+      margin-top: 0.1rem;
     }
 
     code {
       background: #fff3d4;
-      padding: 0.15rem 0.4rem;
+      padding: 0.1rem 0.35rem;
       border-radius: 3px;
       font-family: inherit;
       font-size: inherit;
-      font-weight: 600;
+      font-weight: 700;
       color: #6b4c00;
     }
 
@@ -102,6 +147,64 @@
       font-size: 0.85rem;
       color: #999;
     }
+
+    /* Recipe card grid */
+    .recipe-grid {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 2.5rem;
+      align-items: start;
+      margin-top: 1rem;
+    }
+
+    .recipe-ingredients {
+      background: #fff;
+      border: 1px solid #e8e4d9;
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      position: sticky;
+      top: 1.5rem;
+    }
+
+    .recipe-ingredients h2 {
+      margin-top: 0;
+    }
+
+    .recipe-ingredients h3 {
+      margin-top: 1.25rem;
+    }
+
+    .recipe-steps h2 {
+      margin-top: 0;
+    }
+
+    @media (max-width: 680px) {
+      .recipe-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .recipe-ingredients {
+        position: static;
+      }
+    }
+
+    /* Index page */
+    .recipe-index h2 {
+      margin-top: 2rem;
+    }
+
+    .recipe-index ul li {
+      border-bottom: none;
+      padding: 0.2rem 0;
+    }
+
+    .recipe-index ul li a {
+      text-decoration: none;
+    }
+
+    .recipe-index ul li a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -114,11 +217,74 @@
     <a href="{{ '/' | relative_url }}" class="back-link">&larr; Alle opskrifter</a>
     {% endif %}
 
-    {{ content }}
+    {% if page.url == '/' %}
+    <div class="recipe-index">
+      {{ content }}
+    </div>
+    {% else %}
+    <div class="recipe-content">
+      {{ content }}
+    </div>
+    {% endif %}
   </main>
 
   <footer class="site-footer">
     {{ site.title }}
   </footer>
+
+  {% if page.url != '/' %}
+  <script>
+    (function () {
+      var container = document.querySelector('.recipe-content');
+      if (!container) return;
+
+      var ingredientsHeading = null;
+      var stepsHeading = null;
+
+      container.querySelectorAll('h2').forEach(function (h) {
+        if (h.textContent.includes('Ingredienser')) ingredientsHeading = h;
+        if (h.textContent.includes('Fremgangsm')) stepsHeading = h;
+      });
+
+      if (!ingredientsHeading || !stepsHeading) return;
+
+      function collectBetween(start, end) {
+        var els = [];
+        var el = start.nextElementSibling;
+        while (el && el !== end) { els.push(el); el = el.nextElementSibling; }
+        return els;
+      }
+
+      function collectAfter(start) {
+        var els = [];
+        var el = start.nextElementSibling;
+        while (el) { els.push(el); el = el.nextElementSibling; }
+        return els;
+      }
+
+      var ingredientEls = collectBetween(ingredientsHeading, stepsHeading);
+      var stepEls = collectAfter(stepsHeading);
+
+      var grid = document.createElement('div');
+      grid.className = 'recipe-grid';
+
+      var ingredientsCol = document.createElement('div');
+      ingredientsCol.className = 'recipe-ingredients';
+
+      var stepsCol = document.createElement('div');
+      stepsCol.className = 'recipe-steps';
+
+      ingredientsCol.appendChild(ingredientsHeading);
+      ingredientEls.forEach(function (el) { ingredientsCol.appendChild(el); });
+
+      stepsCol.appendChild(stepsHeading);
+      stepEls.forEach(function (el) { stepsCol.appendChild(el); });
+
+      grid.appendChild(ingredientsCol);
+      grid.appendChild(stepsCol);
+      container.appendChild(grid);
+    })();
+  </script>
+  {% endif %}
 </body>
 </html>
