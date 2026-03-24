@@ -7,6 +7,8 @@ title: "Hakkebøf med bløde løg og pandesovs"
 
 Traditionstro hakkebøffer med det hele, inklusive bløde, let karamelliserede løg, brun pandesovs og saftige bøffer. Spis dem med kartofler eller rugbrød til.
 
+Kilde: Meyers Når Du Flytter Hjemmefra, side 179
+
 ## Ingredienser (4 personer)
 
 **Kartofler**

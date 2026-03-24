@@ -7,6 +7,8 @@ title: "Aubergine-daal med spinat og æbleraita"
 
 Auberginerne får en næsten kødagtig fylde og konsistens i denne daal, der kan spises som et måltid i sig selv med brød til – f.eks. fladbrødene eller en grøn salat.
 
+Kilde: Meyers Når Du Flytter Hjemmefra, side 96
+
 ## Ingredienser (4 personer)
 
 **Daal**
