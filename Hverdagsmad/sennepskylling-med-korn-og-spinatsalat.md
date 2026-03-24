@@ -14,7 +14,7 @@ Kilde: Meyers Når Du Flytter Hjemmefra, side 165
 ### Kylling og sauce
 - 8 stk `kyllingeoverlår` med skind
 - 4 spsk `olie`
-- 2 `æg`
+- 2 stk `løg`, finthakket
 - ½ dl `hvidvin` (eller et splash eddike)
 - 2 dl `hønsebouillon`
 - 2 tsk `tørret estragon` (eller 2 spsk frisk estragon)
@@ -23,7 +23,7 @@ Kilde: Meyers Når Du Flytter Hjemmefra, side 165
 - `Salt` og `peber`
 
 ### Kogte korn
-- 300 g `gerlebyg`
+- 300 g `perlebyg`
 
 ### Spinatsalat
 - 6 spsk `citronsaft`
@@ -39,10 +39,11 @@ Kilde: Meyers Når Du Flytter Hjemmefra, side 165
 2. Varm en pande op til mellem varme med lidt olie. Kom kyllingen på panden med skindsiden nedad.
 3. Lad kyllingen stege ved mellem varme uden at flytte på den, til skindet er helt sprødt og gyldent (ca. 15 minutter).
 4. Vend kyllingestykkerne og steg dem på den anden side til kyllingen er gennemstegt (ca. 8 minutter). Tag kyllingen af panden.
-5. Tilsæt hvidvin og bouillon, og lad det koge i 3-4 minutter.
-7. Kom estragon og fløde på panden, og kog yderligere 6-8 minutter til saucekonsistens.
+5. Kom løgene på panden og steg dem i safterne fra kyllingen ved lav varme til de er klare og møre – ca. 10 minutter.
+6. Tilsæt hvidvin og bouillon, og lad det koge i 3-4 minutter.
+7. Kom estragon og fløde i panden, og kog yderligere 6-8 minutter til saucekonsistens.
 8. Tilsæt sennep til sidst og varm saucen igennem. Smag til med salt og peber.
-9. Kog gerlebyg efter anvisning på posen. Hæld vand fra og smag kornene til med lidt citronsaft, olivenolie og salt.
+9. Kog perlebyg efter anvisning på posen. Hæld vand fra og smag kornene til med lidt citronsaft, olivenolie og salt.
 10. Rør eller ryst citronsaft, sukker og olivenolie sammen til en dressing.
 11. Vend forårsløg og spinat med dressingen, drys med ristede pinjekerner og smag til med salt og peber.
 12. Kom kyllingestykkerne tilbage i saucen og varm dem igennem. Server med kornene og spinatsalaten til.
