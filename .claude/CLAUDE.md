@@ -118,6 +118,13 @@ Forberedelse: 20 min
   - `Drinks/` — cocktails og andre drikkevarer
 - The index page (`index.md`) auto-generates links to all recipes — no manual update needed
 
+## Quality Check
+
+Before saving any recipe, always verify:
+- Every ingredient in the ingredient list is used somewhere in the fremgangsmåde
+- Every ingredient mentioned in the fremgangsmåde appears in the ingredient list
+- If there are discrepancies or anything else that looks odd, ask before saving
+
 ## Converting Recipes
 
 When transforming recipes from the internet or prompts:
@@ -127,6 +134,7 @@ When transforming recipes from the internet or prompts:
 4. Add preparation notes to ingredients
 5. Format steps as numbered list
 6. Ensure consistent formatting
+7. Run the quality check above
 
 ## Git Workflow
 
