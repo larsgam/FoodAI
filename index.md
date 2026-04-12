@@ -7,6 +7,12 @@ title: Opskrifter
 
 {% assign sorted_pages = site.pages | sort: "title" %}
 
+## Morgenmad
+
+{% for p in sorted_pages %}{% if p.dir == "/Morgenmad/" and p.title %}
+- [{{ p.title }}]({{ p.url | relative_url }})
+{% endif %}{% endfor %}
+
 ## Hverdagsmad
 
 {% for p in sorted_pages %}{% if p.dir == "/Hverdagsmad/" and p.title %}
