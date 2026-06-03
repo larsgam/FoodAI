@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Pasta Marinara med friske tomater
+image: /assets/images/pasta-marinara.jpg
 ---
 
 # Pasta Marinara med friske tomater

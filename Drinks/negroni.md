@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Negroni
+image: /assets/images/negroni.jpg
 ---
 
 # Negroni

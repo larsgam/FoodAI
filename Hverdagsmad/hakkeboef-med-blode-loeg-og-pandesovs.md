@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Hakkebøf med bløde løg og pandesovs"
+image: /assets/images/frikadeller.jpg
 ---
 
 # Hakkebøf med bløde løg og pandesovs

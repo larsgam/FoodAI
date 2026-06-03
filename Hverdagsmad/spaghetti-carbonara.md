@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Spaghetti Carbonara
+image: /assets/images/spaghetti-carbonara.jpg
 ---
 
 # Spaghetti Carbonara

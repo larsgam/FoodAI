@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Daube Provençale"
+image: /assets/images/daube-provencale.jpg
 ---
 
 # Daube Provençale

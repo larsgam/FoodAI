@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Frikadeller
+image: /assets/images/frikadeller.jpg
 ---
 
 # Frikadeller

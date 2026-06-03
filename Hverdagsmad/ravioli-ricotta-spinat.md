@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Ravioli med ricotta og spinat i smør-salvie-sauce
+image: /assets/images/ravioli-ricotta-spinat.jpg
 ---
 
 # Ravioli med ricotta og spinat i smør-salvie-sauce

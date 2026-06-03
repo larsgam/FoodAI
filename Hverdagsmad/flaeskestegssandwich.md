@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Flæskestegssandwich"
+image: /assets/images/flaeskestegssandwich.jpg
 ---
 
 # Flæskestegssandwich

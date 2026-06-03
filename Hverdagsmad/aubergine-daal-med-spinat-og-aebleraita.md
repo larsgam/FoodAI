@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Aubergine-daal med spinat og æbleraita"
+image: /assets/images/aubergine-daal.jpg
 ---
 
 # Aubergine-daal med spinat og æbleraita

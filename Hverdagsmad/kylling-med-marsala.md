@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Kylling med Marsala
+image: /assets/images/kylling-med-marsala.jpg
 ---
 
 # Kylling med Marsala

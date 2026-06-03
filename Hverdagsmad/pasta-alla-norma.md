@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Pasta alla Norma
+image: /assets/images/pasta-alla-norma.jpg
 ---
 
 # Pasta alla Norma

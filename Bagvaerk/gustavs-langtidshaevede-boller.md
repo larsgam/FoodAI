@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Gustavs langtidshævede boller"
+image: /assets/images/gustavs-boller.jpg
 ---
 
 # Gustavs langtidshævede boller

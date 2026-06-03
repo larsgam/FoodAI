@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Sennepskylling med korn og spinatsalat
+image: /assets/images/sennepskylling.jpg
 ---
 
 # Sennepskylling med korn og spinatsalat

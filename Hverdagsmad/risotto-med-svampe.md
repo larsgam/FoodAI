@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Risotto med svampe, hvidløg, timian og persille
+image: /assets/images/risotto-med-svampe.jpg
 ---
 
 # Risotto med svampe, hvidløg, timian og persille

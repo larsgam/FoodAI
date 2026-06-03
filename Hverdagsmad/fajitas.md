@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Fajitas
+image: /assets/images/fajitas.jpg
 ---
 
 # Fajitas

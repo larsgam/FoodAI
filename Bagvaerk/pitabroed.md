@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Pitabrød
+image: /assets/images/pitabroed.jpg
 ---
 
 # Pitabrød

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Roberta Pasta
+image: /assets/images/roberta-pasta.jpg
 ---
 
 # Roberta Pasta

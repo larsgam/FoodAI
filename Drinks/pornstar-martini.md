@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Pornstar Martini
+image: /assets/images/pornstar-martini.jpg
 ---
 
 # Pornstar Martini

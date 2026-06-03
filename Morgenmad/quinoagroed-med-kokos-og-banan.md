@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Quinoagrød med kokos og banan"
+image: /assets/images/quinoagroed.jpg
 ---
 
 # Quinoagrød med kokos og banan
