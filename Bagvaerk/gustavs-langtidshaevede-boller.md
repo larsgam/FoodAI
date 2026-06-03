@@ -12,7 +12,7 @@ Kilde: Gustav
 ## Ingredienser
 
 - 350 g `vand`
-- 400 g `mel` (evt. 10% fuldkorn/rugmel)
+- 400 g `mel` (evt. 10% fuldkorn/rugmel eller ølandshvedemel)
 - 1 håndfuld `havregryn` (valgfrit)
 - 1 g `tørgær`
 - 10 g `salt`
