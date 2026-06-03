@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Hokkaidosuppe
+image: /assets/images/hokkaidosuppe.jpg
 ---
 
 # Hokkaidosuppe
 
 En cremet og lækker græskarsuppe, som smager fantastisk og er nem at lave.
 
-Kilde: https://www.valdemarsro.dk/hokkaidosuppe/
+Kilde: [Valdemarsro](https://www.valdemarsro.dk/hokkaidosuppe/)
 Tid: 30 min
 Forberedelse: 30 min
 

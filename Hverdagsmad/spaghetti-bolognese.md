@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Spaghetti Bolognese
+image: /assets/images/spaghetti-bolognese.jpg
 ---
 
 # Spaghetti Bolognese

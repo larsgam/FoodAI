@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Tiramisu
+image: /assets/images/tiramisu.jpg
 ---
 
 # Tiramisu

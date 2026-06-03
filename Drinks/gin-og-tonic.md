@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Gin og Tonic
+image: /assets/images/gin-og-tonic.jpg
 ---
 
 # Gin og Tonic
 
 En klassisk og forfriskende drink med citron.
 
-Kilde: https://shake-it.dk/drink/gin-og-tonic/
+Kilde: [Shake It](https://shake-it.dk/drink/gin-og-tonic/)
 Tid: 5 min
 
 ## Ingredienser (1 drink)

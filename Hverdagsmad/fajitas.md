@@ -7,7 +7,7 @@ title: Fajitas
 
 Rygende varme fajitas med lune bløde tortillas, avocado og hot chilisauce. En hurtig hverdagsret der kan forberedes ved at marinere kyllingen natten over.
 
-Kilde: https://www.valdemarsro.dk/fajitas/
+Kilde: [Valdemarsro](https://www.valdemarsro.dk/fajitas/)
 
 ## Ingredienser (4 personer)
 

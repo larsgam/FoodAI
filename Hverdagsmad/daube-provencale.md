@@ -7,7 +7,7 @@ title: "Daube Provençale"
 
 En klassisk fransk simreret i familie med boeuf bourguignon. Mørt oksekød med bacon, grøntsager og rødvin i en rig sauce.
 
-Kilde: https://gourministeriet.dk/daube-daube-provencale/
+Kilde: [Gourministeriet](https://gourministeriet.dk/daube-daube-provencale/)
 
 Tid: 3,5 timer
 Forberedelse: 30 min

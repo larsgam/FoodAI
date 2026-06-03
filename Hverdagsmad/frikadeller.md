@@ -7,7 +7,7 @@ title: Frikadeller
 
 Saftige frikadeller er ganske simpelt bare en af de bedste danske klassikere. Server med kartoffelsalat, coleslaw, kartofler med sovs eller på rugbrød.
 
-Kilde: https://www.valdemarsro.dk/frikadeller/
+Kilde: [Valdemarsro](https://www.valdemarsro.dk/frikadeller/)
 Tid: 45 min
 Forberedelse: 10 min
 

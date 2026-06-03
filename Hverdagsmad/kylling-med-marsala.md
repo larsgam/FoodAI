@@ -7,7 +7,7 @@ title: Kylling med Marsala
 
 En klassisk italiensk ret med kyllingebryster i en Marsala-vinreduktion med svampe og skalotteløg. Perfekt til en hyggelig aften med godt selskab.
 
-Kilde: https://thehappyfoodie.co.uk/recipes/chicken-with-marsala/
+Kilde: [The Happy Foodie](https://thehappyfoodie.co.uk/recipes/chicken-with-marsala/)
 
 ## Ingredienser (4 personer)
 

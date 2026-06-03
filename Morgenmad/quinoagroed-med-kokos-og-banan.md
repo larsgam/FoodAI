@@ -7,7 +7,7 @@ title: "Quinoagrød med kokos og banan"
 
 En nærende og cremet morgenmad med quinoa kogt med kardemomme og dadler, serveret med varm kokosmælk, banan og mørk chokolade.
 
-Kilde: https://www.valdemarsro.dk/quinoagroed-med-kokos-og-banan/
+Kilde: [Valdemarsro](https://www.valdemarsro.dk/quinoagroed-med-kokos-og-banan/)
 Tid: 25 min
 Forberedelse: 10 min
 

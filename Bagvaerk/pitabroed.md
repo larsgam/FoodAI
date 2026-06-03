@@ -7,7 +7,7 @@ title: Pitabrød
 
 Luftige, tynde og nemme pitabrød med en hul lomme — perfekte til fyldte wraps og shawarma. Hydration: 57%.
 
-Kilde: https://www.cathrinebrandt.dk/lugtige-tynde-og-nemme-pitabroed/
+Kilde: [Cathrine Brandt](https://www.cathrinebrandt.dk/lugtige-tynde-og-nemme-pitabroed/)
 Tid: 1 time 30 min
 Forberedelse: 30 min
 

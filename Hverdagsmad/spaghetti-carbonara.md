@@ -7,7 +7,7 @@ title: Spaghetti Carbonara
 
 En autentisk romersk pastaret med sprød guanciale, æg og pecorino. Saucen skabes ved emulgering - ikke fløde.
 
-Kilde: https://www.carluccios.com/blogs/journal/authentic-spaghetti-carbonara og https://www.youtube.com/watch?v=3AAdKl1UYZs
+Kilde: [Carluccio's](https://www.carluccios.com/blogs/journal/authentic-spaghetti-carbonara) og [YouTube](https://www.youtube.com/watch?v=3AAdKl1UYZs)
 
 ## Ingredienser (4 personer)
 

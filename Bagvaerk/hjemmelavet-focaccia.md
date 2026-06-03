@@ -2,13 +2,14 @@
 layout: default
 title: Hjemmelavet focaccia
 tid: 2 timer + hævning
+image: /assets/images/focaccia.jpg
 ---
 
 # Hjemmelavet focaccia
 
 En luftig og sprød focaccia med langtidshævning. Hydration: 69%.
 
-Kilde: https://jonsmadklub.dk/blogs/opskrifter/hjemmelavet-foccacia
+Kilde: [Jons Madklub](https://jonsmadklub.dk/blogs/opskrifter/hjemmelavet-foccacia)
 Tid: 24-48 timer (koldhævning) eller 6-8 timer (samme dag)
 Forberedelse: 30 min aktivt arbejde
 
