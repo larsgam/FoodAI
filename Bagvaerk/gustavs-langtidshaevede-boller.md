@@ -23,4 +23,4 @@ Kilde: Gustav
 2. Hiv lidt i dejen 3-4 gange i løbet af aftenen for at sikre den får en tyggegummi-agtig konsistens.
 3. Lad dejen stå og hæve natten over.
 4. Form bollerne om morgenen.
-5. Bag ved 250 grader i 12-14 minutter.
+5. Bag ved 250 grader varmluft i 12-14 minutter.
