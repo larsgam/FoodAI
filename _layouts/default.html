@@ -3,195 +3,473 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }} | {{ site.title }}</title>
+  <title>{% if page.url == "/" %}{{ site.title }}{% else %}{{ page.title }} · {{ site.title }}{% endif %}</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --green: #2c5530;
+      --green-light: #e8f0e9;
+      --text: #1a1a1a;
+      --text-muted: #6b7280;
+      --border: #e5e7eb;
+      --bg: #fafaf8;
+      --card-bg: #ffffff;
+      --accent: #fff3d4;
+      --accent-text: #6b4c00;
+      --radius: 10px;
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
       line-height: 1.6;
-      color: #333;
-      background: #fafaf8;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
     }
 
+    /* ——— HEADER ——— */
     .site-header {
-      background: #2c5530;
-      color: white;
-      padding: 1rem 0;
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .site-logo {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--green);
+      text-decoration: none;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .site-logo::before {
+      content: "🍽";
+      font-size: 1.1rem;
+    }
+    .site-nav {
+      display: flex;
+      gap: 0.25rem;
+    }
+    .site-nav a {
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      text-decoration: none;
+      padding: 0.35rem 0.7rem;
+      border-radius: 6px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .site-nav a:hover {
+      background: var(--green-light);
+      color: var(--green);
+    }
+
+    /* ——— INDEX: HERO ——— */
+    .home-hero {
+      background: linear-gradient(135deg, #f0f4f0 0%, #fafaf8 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 3rem 1.5rem 2.5rem;
       text-align: center;
     }
-
-    .site-header a {
-      color: white;
-      text-decoration: none;
-      font-size: 1.2rem;
-      font-weight: 600;
-    }
-
-    .container {
-      max-width: 700px;
-      margin: 0 auto;
-      padding: 2rem 1.5rem;
-    }
-
-    h1 {
-      font-size: 2rem;
+    .home-hero h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--text);
+      letter-spacing: -0.03em;
       margin-bottom: 0.5rem;
-      color: #2c5530;
+    }
+    .home-hero p {
+      font-size: 1rem;
+      color: var(--text-muted);
     }
 
-    h2 {
-      font-size: 1.2rem;
-      margin-top: 1.5rem;
-      margin-bottom: 0.75rem;
-      color: #2c5530;
-      border-bottom: 2px solid #e8e4d9;
-      padding-bottom: 0.3rem;
+    /* ——— INDEX: CATEGORY SECTIONS ——— */
+    .home-content {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+      flex: 1;
     }
-
-    h3 {
-      font-size: 0.8rem;
+    .category-section {
+      margin-bottom: 3rem;
+    }
+    .category-heading {
+      font-size: 0.72rem;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 0.06em;
-      color: #888;
-      margin-top: 1.25rem;
-      margin-bottom: 0.5rem;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .recipe-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+      gap: 1rem;
     }
 
-    p {
-      margin-bottom: 1rem;
-      color: #555;
+    /* ——— RECIPE CARD ——— */
+    .recipe-card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06), 0 0 0 1px rgba(0,0,0,0.04);
+      transition: transform 0.15s, box-shadow 0.15s;
+      display: flex;
+      flex-direction: column;
+    }
+    .recipe-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.04);
+    }
+    .card-img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      display: block;
+      background: var(--green-light);
+    }
+    .card-img-placeholder {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+    }
+    .cat-morgenmad .card-img-placeholder  { background: linear-gradient(135deg, #fef9c3, #fde68a); }
+    .cat-hverdagsmad .card-img-placeholder { background: linear-gradient(135deg, #fce7e7, #f9b4a0); }
+    .cat-bagvaerk .card-img-placeholder    { background: linear-gradient(135deg, #fef3c7, #fcd34d); }
+    .cat-desserter .card-img-placeholder   { background: linear-gradient(135deg, #fce7f3, #f9a8d4); }
+    .cat-drinks .card-img-placeholder      { background: linear-gradient(135deg, #e0f2fe, #7dd3fc); }
+    .cat-morgenmad  .card-img-placeholder::before { content: "☀️"; }
+    .cat-hverdagsmad .card-img-placeholder::before { content: "🍝"; }
+    .cat-bagvaerk   .card-img-placeholder::before { content: "🍞"; }
+    .cat-desserter  .card-img-placeholder::before { content: "🍰"; }
+    .cat-drinks     .card-img-placeholder::before { content: "🍸"; }
+    .card-body {
+      padding: 0.85rem 1rem 1rem;
+      flex: 1;
+    }
+    .card-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.35;
+    }
+    .card-meta {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.3rem;
+    }
+
+    /* ——— RECIPE PAGE ——— */
+    .recipe-banner {
+      width: 100%;
+      max-height: 340px;
+      object-fit: cover;
+      display: block;
+    }
+    .recipe-wrapper {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+      flex: 1;
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      margin-bottom: 1.5rem;
+      transition: color 0.15s;
+    }
+    .back-link:hover { color: var(--green); }
+    .back-link::before { content: "←"; }
+
+    .recipe-wrapper h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      color: var(--text);
+      margin-bottom: 0.5rem;
+      line-height: 1.2;
+    }
+    .recipe-wrapper > div > p:first-of-type {
+      color: var(--text-muted);
       font-size: 0.95rem;
+      margin-bottom: 1.25rem;
+    }
+
+    /* Meta lines (Kilde, Tid, Forberedelse) */
+    .recipe-meta-block {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1.75rem;
+    }
+
+    .recipe-wrapper h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--text-muted);
+      margin-top: 2rem;
+      margin-bottom: 0.9rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border);
     }
 
     /* Ingredient list */
-    ul {
+    .recipe-wrapper ul {
       list-style: none;
-      padding-left: 0;
+      padding: 0;
       margin-bottom: 0.5rem;
     }
-
-    ul li {
-      font-size: 0.92rem;
-      padding: 0.3rem 0;
-      border-bottom: 1px solid #f0ece3;
+    .recipe-wrapper ul li {
+      font-size: 0.93rem;
+      padding: 0.45rem 0;
+      border-bottom: 1px solid #f3f0e8;
       display: flex;
       align-items: baseline;
       gap: 0.4rem;
     }
-
-    ul li:last-child {
-      border-bottom: none;
-    }
+    .recipe-wrapper ul li:last-child { border-bottom: none; }
 
     /* Step list */
-    ol {
+    .recipe-wrapper ol {
       list-style: none;
-      padding-left: 0;
-      margin-bottom: 1.5rem;
+      padding: 0;
       counter-reset: step-counter;
     }
-
-    ol li {
+    .recipe-wrapper ol li {
       counter-increment: step-counter;
       display: flex;
       gap: 1rem;
       margin-bottom: 1.1rem;
       align-items: flex-start;
+      font-size: 0.93rem;
     }
-
-    ol li::before {
+    .recipe-wrapper ol li::before {
       content: counter(step-counter);
       flex-shrink: 0;
-      width: 1.75rem;
-      height: 1.75rem;
-      background: #2c5530;
+      width: 1.8rem;
+      height: 1.8rem;
+      background: var(--green);
       color: white;
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 0.8rem;
+      font-size: 0.75rem;
       font-weight: 700;
-      margin-top: 0.1rem;
+      margin-top: 0.05rem;
     }
 
     code {
-      background: #fff3d4;
+      background: var(--accent);
+      color: var(--accent-text);
       padding: 0.1rem 0.35rem;
-      border-radius: 3px;
+      border-radius: 4px;
       font-family: inherit;
-      font-size: inherit;
       font-weight: 700;
-      color: #6b4c00;
+      font-size: inherit;
     }
 
-    a {
-      color: #2c5530;
-    }
+    .recipe-wrapper p { font-size: 0.93rem; color: #444; margin-bottom: 0.75rem; }
+    .recipe-wrapper a { color: var(--green); }
+    .recipe-wrapper strong { font-weight: 700; }
 
-    .back-link {
-      display: inline-block;
-      margin-bottom: 1.5rem;
-      font-size: 0.95rem;
-    }
-
+    /* ——— FOOTER ——— */
     .site-footer {
+      background: #fff;
+      border-top: 1px solid var(--border);
       text-align: center;
-      padding: 2rem 0;
-      font-size: 0.85rem;
-      color: #999;
+      padding: 1.5rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
     }
 
-    /* Index page */
-    .recipe-index h2 {
-      margin-top: 2rem;
-    }
-
-    .recipe-index ul li {
-      border-bottom: none;
-      padding: 0.2rem 0;
-    }
-
-    .recipe-index ul li a {
-      text-decoration: none;
-    }
-
-    .recipe-index ul li a:hover {
-      text-decoration: underline;
+    /* ——— RESPONSIVE ——— */
+    @media (max-width: 600px) {
+      .home-hero h1 { font-size: 1.6rem; }
+      .recipe-grid { grid-template-columns: repeat(2, 1fr); }
+      .site-nav { display: none; }
+      .recipe-wrapper h1 { font-size: 1.5rem; }
     }
   </style>
 </head>
 <body>
+
   <header class="site-header">
-    <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <div class="header-inner">
+      <a href="{{ '/' | relative_url }}" class="site-logo">{{ site.title }}</a>
+      <nav class="site-nav">
+        <a href="{{ '/Morgenmad/' | relative_url }}">Morgenmad</a>
+        <a href="{{ '/Hverdagsmad/' | relative_url }}">Hverdagsmad</a>
+        <a href="{{ '/Bagvaerk/' | relative_url }}">Bagværk</a>
+        <a href="{{ '/Desserter/' | relative_url }}">Desserter</a>
+        <a href="{{ '/Drinks/' | relative_url }}">Drinks</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="container">
-    {% if page.url != '/' %}
-    <a href="{{ '/' | relative_url }}" class="back-link">&larr; Alle opskrifter</a>
+  {% if page.url == "/" %}
+
+  <div class="home-hero">
+    <h1>Mine opskrifter</h1>
+    <p>{{ site.description }}</p>
+  </div>
+
+  <main class="home-content">
+    {% assign sorted_pages = site.pages | sort: "title" %}
+
+    {% assign morgenmad_pages = "" | split: "" %}
+    {% assign hverdagsmad_pages = "" | split: "" %}
+    {% assign bagvaerk_pages = "" | split: "" %}
+    {% assign desserter_pages = "" | split: "" %}
+    {% assign drinks_pages = "" | split: "" %}
+    {% for p in sorted_pages %}
+      {% if p.title %}
+        {% if p.dir == "/Morgenmad/"   %}{% assign morgenmad_pages = morgenmad_pages | push: p %}{% endif %}
+        {% if p.dir == "/Hverdagsmad/" %}{% assign hverdagsmad_pages = hverdagsmad_pages | push: p %}{% endif %}
+        {% if p.dir == "/Bagvaerk/"    %}{% assign bagvaerk_pages = bagvaerk_pages | push: p %}{% endif %}
+        {% if p.dir == "/Desserter/"   %}{% assign desserter_pages = desserter_pages | push: p %}{% endif %}
+        {% if p.dir == "/Drinks/"      %}{% assign drinks_pages = drinks_pages | push: p %}{% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if morgenmad_pages.size > 0 %}
+    <section class="category-section cat-morgenmad">
+      <h2 class="category-heading">Morgenmad</h2>
+      <div class="recipe-grid">
+        {% for p in morgenmad_pages %}
+        <a href="{{ p.url | relative_url }}" class="recipe-card">
+          {% if p.image %}<img class="card-img" src="{{ p.image | relative_url }}" alt="{{ p.title }}">
+          {% else %}<div class="card-img-placeholder"></div>{% endif %}
+          <div class="card-body">
+            <div class="card-title">{{ p.title }}</div>
+            {% if p.tid %}<div class="card-meta">{{ p.tid }}</div>{% endif %}
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </section>
     {% endif %}
 
-    {% if page.url == '/' %}
-    <div class="recipe-index">
-      {{ content }}
-    </div>
-    {% else %}
+    {% if hverdagsmad_pages.size > 0 %}
+    <section class="category-section cat-hverdagsmad">
+      <h2 class="category-heading">Hverdagsmad</h2>
+      <div class="recipe-grid">
+        {% for p in hverdagsmad_pages %}
+        <a href="{{ p.url | relative_url }}" class="recipe-card">
+          {% if p.image %}<img class="card-img" src="{{ p.image | relative_url }}" alt="{{ p.title }}">
+          {% else %}<div class="card-img-placeholder"></div>{% endif %}
+          <div class="card-body">
+            <div class="card-title">{{ p.title }}</div>
+            {% if p.tid %}<div class="card-meta">{{ p.tid }}</div>{% endif %}
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if bagvaerk_pages.size > 0 %}
+    <section class="category-section cat-bagvaerk">
+      <h2 class="category-heading">Bagværk</h2>
+      <div class="recipe-grid">
+        {% for p in bagvaerk_pages %}
+        <a href="{{ p.url | relative_url }}" class="recipe-card">
+          {% if p.image %}<img class="card-img" src="{{ p.image | relative_url }}" alt="{{ p.title }}">
+          {% else %}<div class="card-img-placeholder"></div>{% endif %}
+          <div class="card-body">
+            <div class="card-title">{{ p.title }}</div>
+            {% if p.tid %}<div class="card-meta">{{ p.tid }}</div>{% endif %}
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if desserter_pages.size > 0 %}
+    <section class="category-section cat-desserter">
+      <h2 class="category-heading">Desserter</h2>
+      <div class="recipe-grid">
+        {% for p in desserter_pages %}
+        <a href="{{ p.url | relative_url }}" class="recipe-card">
+          {% if p.image %}<img class="card-img" src="{{ p.image | relative_url }}" alt="{{ p.title }}">
+          {% else %}<div class="card-img-placeholder"></div>{% endif %}
+          <div class="card-body">
+            <div class="card-title">{{ p.title }}</div>
+            {% if p.tid %}<div class="card-meta">{{ p.tid }}</div>{% endif %}
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if drinks_pages.size > 0 %}
+    <section class="category-section cat-drinks">
+      <h2 class="category-heading">Drinks</h2>
+      <div class="recipe-grid">
+        {% for p in drinks_pages %}
+        <a href="{{ p.url | relative_url }}" class="recipe-card">
+          {% if p.image %}<img class="card-img" src="{{ p.image | relative_url }}" alt="{{ p.title }}">
+          {% else %}<div class="card-img-placeholder"></div>{% endif %}
+          <div class="card-body">
+            <div class="card-title">{{ p.title }}</div>
+            {% if p.tid %}<div class="card-meta">{{ p.tid }}</div>{% endif %}
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+  </main>
+
+  {% else %}
+
+  {% if page.image %}
+  <img class="recipe-banner" src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+  {% endif %}
+
+  <main class="recipe-wrapper">
+    <a href="{{ '/' | relative_url }}" class="back-link">Alle opskrifter</a>
     <div class="recipe-content">
       {{ content }}
     </div>
-    {% endif %}
   </main>
 
-  <footer class="site-footer">
-    {{ site.title }}
-  </footer>
+  {% endif %}
 
+  <footer class="site-footer">
+    {{ site.title }} · <a href="{{ '/' | relative_url }}" style="color:inherit">Se alle opskrifter</a>
+  </footer>
 
 </body>
 </html>

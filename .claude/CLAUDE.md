@@ -14,6 +14,8 @@ All recipes must follow this consistent format:
 ---
 layout: default
 title: [Opskriftens navn]
+tid: [tilberedningstid til kortet på forsiden - fx "30 min" eller "2 timer"]
+image: /assets/images/[filnavn.jpg] (valgfrit - bannerbillede øverst på opskriften)
 ---
 
 # [Opskriftens navn]
