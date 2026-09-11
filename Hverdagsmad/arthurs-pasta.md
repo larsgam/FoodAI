@@ -11,7 +11,7 @@ Cremet pasta med kylling og masser af grøntsager. En hverdagsret, hvor alt saml
 ## Ingredienser (4 personer)
 
 - 400 g `pasta`
-- 500 g `kylling`, skåret i strimler
+- 500 g `kyllingebryst`, skåret i mundrette stykker
 - 1 stk `squash`, skåret i halve skiver
 - 150 g `broccolini`, delt i mindre stykker
 - 300 g `champignon`, skåret i skiver
@@ -28,8 +28,8 @@ Cremet pasta med kylling og masser af grøntsager. En hverdagsret, hvor alt saml
 ## Fremgangsmåde
 
 1. Sæt en gryde med rigeligt saltet vand over til pastaen.
-2. Krydr kyllingestrimlerne godt med salt, peber og de krydderier du vil bruge.
-3. Varm olie på en stor pande og brun kyllingen ved høj varme i 4-5 minutter, til den er gennemstegt. Tag den op og stil den til side.
+2. Krydr kyllingestykkerne godt med salt, peber og de krydderier du vil bruge.
+3. Varm olie på en stor pande og brun kyllingen ved høj varme i 5-6 minutter, til den er gennemstegt. Tag den op og stil den til side.
 4. Kom lidt mere olie på panden og steg champignonerne 4-5 minutter, til de har taget farve og væsken er fordampet.
 5. Tilsæt løg og hvidløg og steg 2 minutter, til løget er blødt.
 6. Tilsæt squash og broccolini og steg 3-4 minutter, til de er møre med bid.
